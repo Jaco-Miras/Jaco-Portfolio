@@ -1,5 +1,6 @@
 import React from "react";
 import Jaco2 from "../assets/images/Jaco2.png";
+import { Link } from "react-scroll";
 
 function Content() {
   return (
@@ -25,12 +26,15 @@ function Content() {
           development. I love solving problems and I view coding as my passion.
           I am confident on my ability to learn and on to work under pressure.
         </p>
-        <a
-          className="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          className="bg-indigo-600 cursor-pointer text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
           href="#"
         >
           Hire Me
-        </a>
+        </Link>
       </div>
     </div>
   );

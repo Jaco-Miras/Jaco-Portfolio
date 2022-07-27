@@ -63,12 +63,12 @@ function Navbar() {
             </li>
             <li className="hover:text-gray-500">
               <Link
-                to="skills"
+                to="contact"
                 className="cursor-pointer"
                 smooth={true}
                 duration={500}
               >
-                skills
+                contact
               </Link>
             </li>
           </ul>
@@ -136,7 +136,7 @@ function Navbar() {
             <li className="hover:text-gray-500 my-3">
               <Link
                 onClick={handleClick}
-                to="works"
+                to="contact"
                 smooth={true}
                 duration={500}
               >
@@ -147,11 +147,6 @@ function Navbar() {
         </div>
       </nav>
       {/* END OF NAVBAR */}
-
-      {/* Content
-      <div>
-        <Content homeRef={myRef} />
-      </div> */}
     </div>
   );
 }

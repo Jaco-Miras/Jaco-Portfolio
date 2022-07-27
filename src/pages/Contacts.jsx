@@ -2,7 +2,7 @@ import React from "react";
 
 function Contacts() {
   return (
-    <div className="container mx-auto">
+    <div name="contact" className="container mx-auto">
       {/* Top */}
       <div className="flex flex-col gap-3 items-center">
         <h1 className="text-indigo-600 font-bold">CONTACTS</h1>
