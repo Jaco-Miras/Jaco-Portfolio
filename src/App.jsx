@@ -1,11 +1,17 @@
 import About from "./pages/About";
-import Intro from "./pages/Intro";
+import Contacts from "./pages/Contacts";
+import Home from "./pages/Home";
+import Skills from "./pages/Skills";
+import Works from "./pages/Works";
 
 function App() {
   return (
     <div className="App">
-      <Intro />
+      <Home />
       <About />
+      <Skills />
+      <Works />
+      <Contacts />
     </div>
   );
 }

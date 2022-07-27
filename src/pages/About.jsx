@@ -4,8 +4,8 @@ import Jaco from "../assets/images/Jako.jpg";
 
 function About() {
   return (
-    <div className="px-10">
-      <div className="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
+    <div name="about" className="px-10">
+      <div className="container mx-auto py-20  flex flex-col-reverse lg:flex-row items-center gap-20">
         {/* Left */}
         <div className="relative">
           <img
@@ -24,19 +24,12 @@ function About() {
             I built personal projects like clones, etc. I'm also a enthusiast
             frontend developer
           </p>
-          <h2 className="text-gray-400 font-medium">HTML</h2>
-          <div className="w-full bg-gray-200 h-1.5 rounded-md">
-            <div className="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
-          </div>
 
-          <h2 className="text-gray-400 font-medium">CSS</h2>
-          <div className="w-full bg-gray-200 h-1.5 rounded-md">
-            <div className="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
-          </div>
-
-          <h2 className="text-gray-400 font-medium">Javascript</h2>
-          <div className="w-full bg-gray-200 h-1.5 rounded-md">
-            <div className="w-3/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          <div>
+            <h1 className="text-gray-500 font-light italic">Proficient in</h1>
+            <h2 className="text-gray-400 font-medium">HTML</h2>
+            <h2 className="text-gray-400 font-medium">CSS</h2>
+            <h2 className="text-gray-400 font-medium">Javascript</h2>
           </div>
         </div>
       </div>
