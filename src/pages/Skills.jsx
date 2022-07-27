@@ -6,7 +6,7 @@ import BOOTSTRAP from "../assets/images/Boostrap.png";
 import TAILWIND from "../assets/images/tailwind.png";
 import REACT from "../assets/images/react.png";
 import NODE from "../assets/images/node.png";
-import MUI from "../assets/images/mui.png";
+import MUI from "../assets/images/MUI.png";
 
 function Skills() {
   return (
