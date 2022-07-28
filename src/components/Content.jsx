@@ -1,6 +1,7 @@
 import React from "react";
 import Jaco2 from "../assets/images/Jaco2.png";
 import { Link } from "react-scroll";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 function Content() {
   return (
@@ -35,6 +36,36 @@ function Content() {
         >
           Hire Me
         </Link>
+      </div>
+
+      {/* Social Icons */}
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[3px] duration-300 bg-[#006192]">
+            <a
+              className="flex mx-3 justify-between items-center ml-[20px] w-full text-white font-semibold"
+              href="https://www.linkedin.com/in/jaco-raven-miras-13b6aa201/"
+            >
+              LinkedIn <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[3px] duration-300 bg-[#333333]">
+            <a
+              className="flex mx-3 justify-between items-center ml-[20px] w-full text-white font-semibold"
+              href="https://github.com/Jaco-Miras"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[3px] duration-300 bg-[#3b5998]">
+            <a
+              className="flex mx-3 justify-between ml-[20px] items-center w-full text-white font-semibold"
+              href="https://www.facebook.com/jraven.miras"
+            >
+              Facebook <FaFacebook size={30} />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
