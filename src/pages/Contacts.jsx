@@ -5,7 +5,7 @@ function Contacts() {
     <div name="contact" className="container mx-auto">
       {/* Top */}
       <div className="flex flex-col gap-3 items-center">
-        <h1 className="text-indigo-600 font-bold">CONTACTS</h1>
+        <h1 className="text-indigo-600 font-bold">CONTACT</h1>
         <h1 className="text-3xl">Have Questions?</h1>
         <p className="w-1/2 text-center text-gray-400">
           Do you have an idea? Let's discuss it and see what we can do together.
