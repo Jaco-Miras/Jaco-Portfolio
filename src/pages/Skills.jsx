@@ -14,6 +14,9 @@ function Skills() {
       {/* Top */}
       <div className="flex flex-col gap-3 items-center">
         <h1 className="text-indigo-600 font-bold uppercase">Skills</h1>
+        <p className="py-4 w-1/2 text-center text-gray-400">
+          These are the technologies I've work with
+        </p>
       </div>
       {/* Bottom */}
       <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-20 px-5 mx-auto ">
