@@ -14,22 +14,31 @@ function About() {
             alt="dots"
           />
           <div className="h-full rounded-full overflow-hidden ">
-            <img className="h-96" src={Jaco} alt="" />
+            <img className="h-[300px] w-[30vw]" src={Jaco} alt="" />
           </div>
         </div>
         {/* Right */}
         <div className="my-auto flex flex-col gap-3">
           <h1 className="text-indigo-600 font-bold">ABOUT ME</h1>
           <p className="text-gray-400">
-            I built personal projects like clones, etc. I'm also a enthusiast
-            frontend developer
+            Hi, I'm Jaco Raven Miras, and I graduated from the University of
+            Immaculate Conception in 2022 with a degree in Bachelor of Science
+            In Information Technology. My interests are in front end
+            development, and I enjoy developing attractive, valuable product
+            with wonderful user interfaces.
           </p>
 
           <div>
             <h1 className="text-gray-500 font-light italic">Proficient in</h1>
-            <h2 className="text-gray-400 font-medium">HTML</h2>
-            <h2 className="text-gray-400 font-medium">CSS</h2>
-            <h2 className="text-gray-400 font-medium">Javascript</h2>
+            <h2 className="text-gray-400 font-medium">
+              • Creating web applications
+            </h2>
+            <h2 className="text-gray-400 font-medium">
+              • Styling and develop user interfaces
+            </h2>
+            <h2 className="text-gray-400 font-medium">
+              • Maintaining, optimizing, troubleshooting, and improving websites{" "}
+            </h2>
           </div>
         </div>
       </div>
