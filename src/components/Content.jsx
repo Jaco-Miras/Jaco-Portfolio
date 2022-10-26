@@ -1,5 +1,5 @@
 import React from "react";
-import Jaco2 from "../assets/images/Jaco2.png";
+import Jaco from "../assets/images/Jaco3.png";
 import { Link } from "react-scroll";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
@@ -9,11 +9,11 @@ function Content() {
       {/* Image */}
       <img
         className="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover "
-        src={Jaco2}
+        src={Jaco}
         alt=""
       />
       {/* Circle */}
-      <div className="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto h-[670px] w-[670px] bg-[#383838]  rounded-full -z-10"></div>
+      <div className="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto h-[650px] w-[650px] bg-[#383838]  rounded-full -z-10"></div>
       {/* Animated Text */}
       <div className="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-6xl font-bold">
         <span className="text-gray-600">Frontend</span>
@@ -39,7 +39,7 @@ function Content() {
       </div>
 
       {/* Social Icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 z-10">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[3px] duration-300 bg-[#006192]">
             <a
